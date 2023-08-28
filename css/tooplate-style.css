@@ -110,8 +110,8 @@ b, strong {
 .animated-info {
   display: inline-block;
   vertical-align: top;
-  margin-top: 5px;
-  min-width: 260px;
+  margin-top: 2px;
+  min-width: 380px;
   position: relative;
 }
 
@@ -518,7 +518,7 @@ b, strong {
 }
 @media (max-width: 580px) {
 	.animated-info {
-		min-width: 200px;
+		min-width: 280px;
 	}
   .animated-item {
     font-size: 30px;
