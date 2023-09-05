@@ -36,7 +36,7 @@
               <a href="#resume" class="nav-link"><span data-hover="Experiencia">Experiencia</span></a>
             </li>
             <li class="nav-item">
-              <a href="#customers" class="nav-link"><span data-hover="Clientes">Clientes</span></a>
+              <a href="#trusted" class="nav-link"><span data-hover="Han confiado en mí.">Han confiado en mí.</span></a>
             </li>
             <li class="nav-item">
               <a href="#contact" class="nav-link"><span data-hover="Contacto">Contacto</span></a>
@@ -79,126 +79,156 @@
     </section>
     <!-- PROJECTS -->
     <section class="project py-5" id="project">
-        <div class="container">
-                
-                <div class="row">
-                  <div class="col-lg-11 text-center mx-auto col-12">
-
-                      <div class="col-lg-8 mx-auto">
-                        <h2>Proyectos</h2>
-                      </div>
-
-                        <!--<div class="owl-carousel owl-theme">
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/project-image01.png" class="img-fluid" alt="project image">
-                          </div>
-                        </div>
-                      </div>-->
-
-                  </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-11 text-center mx-auto col-12">
+            <div class="col-lg-8 mx-auto">
+              <h2>Últimos proyectos</h2>
+            </div>
+            <div id="myBtnContainer">
+              <button class="btn active" onclick="filterSelection('all')"> Mostrar todos</button>
+              <button class="btn" onclick="filterSelection('web')"> Web</button>
+              <button class="btn" onclick="filterSelection('movil')"> Movil</button>
+              <button class="btn" onclick="filterSelection('desktop')"> Escritorio</button>
+            </div>
+            <div class="row">
+              <div class="column movil">
+                <div class="content">
+                  <img src="images/cliente_vw.png" style="width:100%">
+                  <h4>Tracking Order</h4>
+                  <p>Sistemas de seguimiento de entregas</p>
                 </div>
+              </div>
+              <div class="column web">
+                <div class="content">
+                  <img src="images/cliente_vw.png" style="width:100%">
+                  <h4>Tracking Order</h4>
+                  <p>Sistemas de seguimiento de entregas</p>
+                </div>
+              </div>
+              <div class="column desktop">
+                <div class="content">
+                  <img src="images/cliente_vw.png" style="width:100%">
+                  <h4>SAEE</h4>
+                  <p>Lorem ipsum dolor..</p>
+                </div>
+              </div>
+              <div class="column movil">
+                <div class="content">
+                  <img src="images/cliente_vw.png" style="width:100%">
+                  <h4>Checklist unidades</h4>
+                  <p>Lorem ipsum dolor..</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- FEATURES -->
     <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
         <div class="container">
-            <div class="row">
-
-                <div class="col-lg-6 col-12">
-                  <h2 class="mb-4">Experiences</h2>
-
-                    <div class="timeline">
-                        <div class="timeline-wrapper">
-                             <div class="timeline-yr">
-                                  <span>2019</span>
-                             </div>
-                             <div class="timeline-info">
-                                  <h3><span>Project Manager</span><small>Best Studio</small></h3>
-                                  <p>Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a faucibus nunc.</p>
-                             </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2018</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>UX Designer</span><small>Digital Ace</small></h3>
-                                <p>Fusce rutrum augue id orci rhoncus molestie. Nunc auctor dignissim lacus vel iaculis.</p>
-                            </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2016</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>UI Freelancer</h3>
-                                <p>Sed fringilla vitae enim sit amet cursus. Sed cursus dictum tortor quis pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2014</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Junior Designer<small>Crafted Co.</small></h3>
-                                <p>Cras scelerisque scelerisque condimentum. Nullam at volutpat mi. Nunc auctor ipsum eget magna consequat viverra.</p>
-                            </div>
-                        </div>
-
-                    </div>
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <h2 class="mb-4">Experiencia</h2>
+              <div class="timeline">
+                <div class="timeline-wrapper">
+                  <div class="timeline-yr">
+                    <span>2023</span>
+                  </div>
+                   <div class="timeline-info">
+                    <h3><span>Transitia</span></h3>
+                    <p>Desarrollador Full Stack.
+                      Actopan, Hidalgo
+                    </p>
+                  </div>
                 </div>
-
-                <div class="col-lg-6 col-12">
-                  <h2 class="mb-4 mobile-mt-2">Educations</h2>
-
-                    <div class="timeline">
-                        <div class="timeline-wrapper">
-                             <div class="timeline-yr">
-                                  <span>2017</span>
-                             </div>
-                             <div class="timeline-info">
-                                  <h3><span>Mobile Web</span><small>Master Design</small></h3>
-                                  <p>Please tell your friends about Tooplate website. That would be very helpful. We need your support.</p>
-                             </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2015</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>User Interfaces</span><small>Creative Agency</small></h3>
-                                <p><a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a> is a great website to download HTML templates without any login or email.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2013</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Artwork Design</span><small>New Art School</small></h3>
-                                <p>You can freely use Tooplate's templates for your business or personal sites. You cannot redistribute this template without a permission.</p>
-                            </div>
-                        </div>
-
-                    </div>
+                <div class="timeline-wrapper">
+                  <div class="timeline-yr">
+                    <span>2023</span>
+                  </div>
+                  <div class="timeline-info">
+                    <h3><span>Cementos fortaleza</span></h3>
+                    <p>Desarrollador Full Stack.
+                      Santiago de Anaya, Hidalgo
+                    </p>
+                  </div>
                 </div>
-                
+                <div class="timeline-wrapper">
+                  <div class="timeline-yr">
+                    <span>2018</span>
+                  </div>
+                  <div class="timeline-info">
+                    <h3><span>Grupo Telnet</span></h3>
+                      <p>Systems analyst.
+                        Puebla, puebla
+                      </p>
+                    </div>
+                  </div>
+                  <div class="timeline-wrapper">
+                    <div class="timeline-yr">
+                      <span>2017</span>
+                    </div>
+                    <div class="timeline-info">
+                      <h3><span>Freelance</span></h3>
+                      <p>Remoto</p>
+                      </div>
+                    </div>
+                    <div class="timeline-wrapper">
+                      <div class="timeline-yr">
+                        <span>2016</span>
+                      </div>
+                      <div class="timeline-info">
+                        <h3><span>Conidea Servicios</span></h3>
+                        <p>Desarrollador Full Stack.
+                          Puebla, puebla
+                        </p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2">Educación</h2>
+                  <div class="timeline">
+                    <div class="timeline-wrapper">
+                      <div class="timeline-yr">
+                        <span>2023</span>
+                      </div>
+                      <div class="timeline-info">
+                        <h3><span>Maestría</span><small>gestión de proyectos tecnológicos.</small></h3>
+                        <p>UNIR México - En línea</p>
+                      </div>
+                    </div>
+                    <div class="timeline-wrapper">
+                      <div class="timeline-yr">
+                        <span>2013</span>
+                      </div>
+                      <div class="timeline-info">
+                        <h3><span>Ingeniería</span><small>sistemas computacionales.</small></h3>
+                        <p>Instituto Tecnológico Superior de Santiago Papasquiaro, Durango</p>
+                      </div>
+                    </div>
+                    <div class="timeline-wrapper">
+                      <div class="timeline-yr">
+                        <span>2008</span>
+                      </div>
+                      <div class="timeline-info">
+                        <h3><span>Tecnico</span><small>en informática.</small></h3>
+                        <p>Centro de Bachillerato Tecnologico Agropecuario #173, Nuevo Ideal, Durango</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- CUSTOMERS -->
-    <section class="customers py-5" id="customers">
+    <!-- TRUSTED -->
+    <section class="trusted py-5" id="trusted" style="background-color: white;">
       <div class="container">
         <div class="container">
           <div class="col-lg-11 text-center mx-auto col-12">
             <div class="col-lg-12 mx-auto">
-              <h2>Clientes</h2>
+              <h2>Han confiado en mí.</h2>
               <p>Estas son algunas de las compañías con las que he tenido la suerte de colaborar en mi etapa como desarrollador.</p>
               <center>
               <section class="customer-logos slider">
@@ -254,6 +284,50 @@
     <script src="js/custom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <script>
+      filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
       $(document).ready(function(){
         $('.customer-logos').slick({
           slidesToShow: 6,
